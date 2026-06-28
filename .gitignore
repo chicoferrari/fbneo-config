@@ -1,0 +1,32 @@
+# Config real da maquina (contem paths de rom e estado)
+fbneo.ini
+config/
+
+# ROMs / BIOS — NUNCA versionar (romsets e BIOS de arcade)
+roms/
+*.zip
+*.7z
+neogeo.zip
+neocdz.zip
+
+# Saves, savestates, nvram, capturas, cheats baixados
+nvram/
+states/
+*.fs
+*.fr
+screenshots/
+recordings/
+cheats/
+hiscore.dat
+support/
+
+# Backups gerados pelos scripts
+*.bak
+*.bak.*
+*.tmp
+
+# Lixo de SO / editor
+.DS_Store
+*~
+.idea/
+.vscode/
